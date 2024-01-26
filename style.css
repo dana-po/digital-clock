@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-image: url(https://images.pexels.com/photos/17652903/pexels-photo-17652903/free-photo-of-naomi.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  height: 100vh;
+  margin-top: 50px;
+}
+#clock {
+  font-size: 6.5em;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  backdrop-filter: blur(5px);
+  /* width: 100%; */
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
